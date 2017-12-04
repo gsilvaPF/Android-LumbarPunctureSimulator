@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Lumbar Puncture Simulator</string>
+    <string name="action_settings">Settings</string>
+    <string name="team_name">Tap</string>
+    <string name="team_name_with_identifer">Team: Tap</string>
+    <string name="project_name">Lumbar Puncture Simulator</string>
+    <string name="title_activity_select_mode">SelectModeActivity</string>
+    <string name="simulation_button_guided">Guided</string>
+    <string name="simulation_button_practice">Practice</string>
+    <string name="simulation_button_test">Test</string>
+    <string name="simulation_guided_info_button_message">Guided simulation will give you step to step instructions and warn of any errors you are doing.</string>
+    <string name="simulation_practice_info_button_message">Practice simulation will not give you step by step instructions, but will warn you of any errors you are doing.</string>
+    <string name="simulation_test_info_button_message">Test simulation will not give you step by step instructions, and will not warn you of any errors you are dong. <b>You will be graded at the end.</b></string>
+    <string name="info">Info</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="select_simulation_mode">Select Simulation Mode</string>
+    <string name="error">Error</string>
+    <string name="error_device_does_not_support_bluetooth_message">In order to use this application you device needs a bluetooth adapter.</string>
+    <string name="retry">Retry</string>
+    <string name="error_could_not_enable_bluetooth">Could not enable BlueTooth</string>
+    <string name="title_activity_simulation">SimulationActivity</string>
+    <string name="x_axis">x_axis:</string>
+    <string name="y_axis">y_axis:</string>
+    <string name="z_axis">z_axis:</string>
+    <string name="depth">Depth:</string>
+    <string name="top_fragment_step"><b><u>Find Cerebial Cord</u></b></string>
+    <string name="top_fragment_step_message">Go deeper into the spine with the syringe, and find puncture sight.</string>
+    <string name="simulation_alert_type_error_title">Error:</string>
+    <string name="simulation_alert_type_warning_title">Warning:</string>
+    <string name="simulation_alert_type_success_title">Success!</string>
+    <string name="bluetoothS_state_on">BlueTooth Adapter On</string>
+    <string name="bluetoothS_state_turing_on">BlueTooth Adapter Turning On</string>
+    <string name="bluetoothS_state_turning_off">BlueTooth Adapter Turing Off</string>
+    <string name="bluetoothS_state_off">BlueTooth Adapter Off</string>
+    <string name="select_device">Select Device</string>
+    <string name="error_bluetooth_disconnected_title">Bluetooth Disconnected</string>
+    <string name="error_bluetooth_disconnected_message">You were disconnecting to the device. Would you like to reconnect?</string>
+    <string name="error_retreiving_bonded_devices">Could not retrieve bonded devices.</string>
+    <string name="error_bluetooth_no_devices_connected">You are not connected to a device.</string>
+    <string name="error_invalid_charset_format">Invalid Charset Format. Not "US-ASCII".</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

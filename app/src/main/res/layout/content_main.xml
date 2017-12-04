@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.gilbertosilva.lumbarpuncturesimulator.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="480dp"
+        android:text="@string/team_name_with_identifer"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textStyle="italic"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/mainActivityProjectName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/project_name"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/mainActivityImageView"
+        android:layout_below="@+id/mainActivityProjectName"
+        android:src="@drawable/spine"
+        android:layout_centerInParent="true"/>
+
+    <ProgressBar
+        android:id="@+id/mainActivityProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainActivityImageView"
+        android:indeterminate="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/mainActivityRetryButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainActivityProgressBar"
+        android:layout_centerHorizontal="true"
+        android:text="@string/retry" />
+
+</RelativeLayout>
